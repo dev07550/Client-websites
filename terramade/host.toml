@@ -1,7 +1,7 @@
 # example netlify.toml
 [build]
   command = "npm run build"
-  functions = "netlify/functions"
+  functions = "hostinger/functions"
   publish = "dist"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
@@ -11,7 +11,7 @@
   #  to = "/index.html"
   #  status = 200
 
-  ## (optional) Settings for Netlify Dev
+  ## (optional) Settings for hostinger Dev
   ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
   #[dev]
   #  command = "yarn start" # Command to start your dev server
